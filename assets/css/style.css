@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img {
+  left: 0;
+  top: 20%;
+  position: absolute;
+  z-index: -1;
+}
+
+.header-top {
+  background-color: #FFC01F;
+  font-family: Montserrat-Medium;
+}
+.header-top .header-top-content {
+  padding: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.header-top .header-top-content p {
+  justify-self: start;
+  color: #353535;
+  font-size: 12px;
+}
+.header-top .header-top-content .social-group {
+  display: grid;
+  justify-self: end;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.header-top .header-top-content .social-group a {
+  color: #353535;
+}
+
+header {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-content: center;
+}
+header nav ul a {
+  color: #353535;
+  font-size: 14px;
+  font-family: Montserrat-Regular;
+  transition: all 0.2s ease;
+}
+header nav ul a:hover {
+  color: #FFC01F;
+}
+header .language-groups {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-self: end;
+}
+header .language-groups span {
+  padding: 0 5px;
+  color: #353535;
+  cursor: pointer;
+  font-family: Montserrat-SemiBold;
+}
+header .language-groups span:hover {
+  color: #FFC01F;
+}
+
+.welcome-page {
+  padding: 50px 0 150px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 50px;
+}
+.welcome-page .welcome-text {
+  align-self: center;
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(3, auto);
+  color: #596C72;
+}
+.welcome-page .welcome-text h1 {
+  font-family: Montserrat-Bold;
+  width: 21ch;
+  font-size: 50px;
+}
+.welcome-page .welcome-text p {
+  width: 450px;
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+}
+.welcome-page .welcome-text a {
+  padding: 13px 55px;
+  border-radius: 30px;
+  border: 1px solid #353535;
+  background-color: white;
+  color: #353535;
+  font-family: Mulish, sans-serif;
+  font-size: 12px;
+  justify-self: start;
+  transition: 0.3s ease-out;
+}
+.welcome-page .welcome-text a:hover {
+  background-color: #FFC01F;
+  border: 1px solid #596C72;
+}
+.welcome-page .welcome-img {
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+  width: 550px;
+  height: 400px;
+}
+.welcome-page .welcome-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.categories {
+  padding: 50px 0;
+}
+.categories h2 {
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  color: #596C72;
+}
+.categories .categories-cards-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+}
+.categories .categories-cards-container .categories-card-item {
+  border-radius: 10px;
+  padding: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(164, 164, 164, 0.25), 0px 1px 7px 0px rgba(194, 194, 194, 0.25) inset;
+}
+.categories .categories-cards-container .categories-card-item h3 {
+  font-size: 22px;
+  font-family: Montserrat-SemiBold;
+  color: #596C72;
+  text-align: center;
+  padding: 10px 0;
+}
+.categories .categories-cards-container .categories-card-item .categories-card-img {
+  width: 100%;
+  height: 300px;
+}
+.categories .categories-cards-container .categories-card-item .categories-card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.about-page-content {
+  position: relative;
+}
+.about-page-content .vektor {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+}
+.about-page-content .vektor2 {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  z-index: -1;
+}
+.about-page-content .about-page {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.about-page-content .about-page .left-part {
+  width: 100%;
+  display: grid;
+  align-content: end;
+  justify-content: center;
+}
+.about-page-content .about-page .left-part img {
+  width: 300px;
+  height: 500px;
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+}
+.about-page-content .about-page .right-part {
+  color: #596C72;
+}
+.about-page-content .about-page .right-part .img-container {
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+}
+.about-page-content .about-page .right-part .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-page-content .about-page .right-part .right-part-text {
+  padding-left: 50px;
+  padding-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+.about-page-content .about-page .right-part .right-part-text h2 {
+  font-family: Montserrat-Bold;
+  width: 21ch;
+  font-size: 50px;
+}
+.about-page-content .about-page .right-part .right-part-text p {
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+}
+.about-page-content .about-page .right-part .right-part-text a {
+  padding: 13px 55px;
+  border-radius: 30px;
+  border: 1px solid #353535;
+  background-color: white;
+  color: #353535;
+  font-family: Mulish, sans-serif;
+  font-size: 12px;
+  justify-self: start;
+  transition: 0.3s ease-out;
+}
+.about-page-content .about-page .right-part .right-part-text a:hover {
+  background-color: #FFC01F;
+  border: 1px solid #596C72;
+}
+
+.texnikalar {
+  padding: 100px 0;
+}
+.texnikalar h2 {
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  color: #596C72;
+}
+.texnikalar .texnikalar-cards-container {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item {
+  border-radius: 10px;
+  padding: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item h3 {
+  font-size: 18px;
+  color: #596C72;
+  font-family: Montserrat-SemiBold;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item .product-name {
+  font-size: 14px;
+  font-family: Mulish;
+  font-weight: 400;
+  color: #686868;
+  margin: 5px 0;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item .product-date {
+  font-size: 14px;
+  font-family: Mulish;
+  font-weight: 400;
+  color: #B0ADAD;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item .product-prize {
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  color: #FFC01F;
+  margin-bottom: 5px;
+  display: grid;
+  justify-content: end;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item a {
+  border-radius: 30px;
+  border: 1px solid #353535;
+  color: #353535;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  justify-content: stretch;
+  padding: 10px;
+  justify-items: center;
+  transition: 0.3s ease;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item a:hover {
+  background-color: #FFC01F;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item .texnikalar-card-img {
+  width: 100%;
+  height: 300px;
+}
+.texnikalar .texnikalar-cards-container .texnikalar-card-item .texnikalar-card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.texnikalar .btn {
+  display: grid;
+  justify-content: center;
+}
+.texnikalar .btn a.read-more {
+  font-weight: 700;
+  font-size: 12px;
+  font-family: Mulish;
+  color: #353535;
+  border-radius: 30px;
+  background: #FFC01F;
+  padding: 15px 50px;
+  transition: 0.3s ease;
+}
+.texnikalar .btn a.read-more:hover {
+  background-color: white;
+  border: 1px solid #353535;
+}
+
+.markalar h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  color: #596C72;
+  margin-bottom: 30px;
+}
+.markalar .logos-container {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  justify-content: space-between;
+  align-content: center;
+}
+.markalar .logos-container img {
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
