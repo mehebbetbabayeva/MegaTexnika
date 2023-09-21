@@ -371,4 +371,144 @@ header .language-groups span:hover {
 }
 .markalar .logos-container img {
   height: 30px;
+}
+
+.yenilikler {
+  padding: 100px 0;
+}
+.yenilikler h2 {
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  color: #596C72;
+}
+.yenilikler .yenilikler-cards-container {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+.yenilikler .yenilikler-cards-container .yenilikler-card-item {
+  padding-bottom: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+.yenilikler .yenilikler-cards-container .yenilikler-card-item img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.yenilikler .yenilikler-cards-container .yenilikler-card-item h3 {
+  font-size: 16px;
+  color: #191919;
+  font-family: Montserrat-Medium;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+.yenilikler .yenilikler-cards-container .yenilikler-card-item p {
+  font-size: 14px;
+  font-family: Mulish;
+  font-weight: 400;
+  color: #69768B;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.yenilikler .yenilikler-cards-container .yenilikler-card-item .yenilikler-date {
+  font-size: 12px;
+  color: #69768B;
+  font-weight: 500;
+  font-family: Mulish;
+  padding-left: 10px;
+}
+
+.elaqe-content {
+  background: #EFEFEF;
+  padding: 60px 0;
+  position: relative;
+}
+.elaqe-content .elaqe-container .elaqe-img {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: -90px;
+  right: 60px;
+}
+.elaqe-content .elaqe-container .elaqe-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.elaqe-content .elaqe-container .elaqe-text {
+  width: 35%;
+}
+.elaqe-content .elaqe-container .elaqe-text h3 {
+  color: #596C72;
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+}
+.elaqe-content .elaqe-container .elaqe-text p {
+  text-align: justify;
+  color: #353535;
+  font-family: Mulish;
+  font-size: 14px;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input {
+  border-radius: 30px;
+  border: 1px solid #353535;
+  padding: 15px;
+  outline: none;
+  background-color: transparent;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input::-moz-placeholder {
+  color: #686868;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 700;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input::placeholder {
+  color: #686868;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 700;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input:nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact input:nth-child(4) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 30px;
+  background: #FFC01F;
+  outline: none;
+  color: #353535;
+  font-family: Mulish;
+  font-size: 12px;
+  padding: 15px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.elaqe-content .elaqe-container .elaqe-text .form-contact button:hover {
+  border: 1px solid #353535;
+  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */
