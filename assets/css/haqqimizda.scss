@@ -31,6 +31,8 @@
     }
 
     .haqqimizda-text {
+        display: grid;
+        justify-items:center;
         h1 {
             color: #596C72;
             font-family: Montserrat-Bold;
@@ -50,6 +52,7 @@
         }
 
         p {
+            width: 50%;
             color: #353535;
             text-align: center;
             font-family: Mulish;

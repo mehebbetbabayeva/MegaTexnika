@@ -19,6 +19,10 @@
   color: #596C72;
   font-weight: 500;
 }
+.haqqimizda-wlc-content .haqqimizda-text {
+  display: grid;
+  justify-items: center;
+}
 .haqqimizda-wlc-content .haqqimizda-text h1 {
   color: #596C72;
   font-family: Montserrat-Bold;
@@ -34,6 +38,7 @@
   font-weight: 500;
 }
 .haqqimizda-wlc-content .haqqimizda-text p {
+  width: 50%;
   color: #353535;
   text-align: center;
   font-family: Mulish;

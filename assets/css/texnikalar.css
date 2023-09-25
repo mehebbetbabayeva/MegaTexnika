@@ -1,0 +1,57 @@
+.texnikalar {
+  padding: 50px 0;
+}
+.texnikalar .links a {
+  color: #ADADAD;
+  font-family: Mulish;
+  padding-right: 5px;
+  font-weight: 400;
+}
+.texnikalar .links a:first-child {
+  border-right: 1px solid #686868;
+}
+.texnikalar .links a:last-child {
+  color: #596C72;
+  font-weight: 500;
+}
+.texnikalar h2 {
+  text-align: center;
+}
+.texnikalar .texnikalar-menu {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 20%;
+  align-content: center;
+}
+.texnikalar .texnikalar-menu .all {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  border-radius: 30px;
+  background: #FFC01F;
+  color: #353535;
+  font-family: Mulish;
+  font-size: 12px;
+  padding: 15px 30px;
+  font-weight: 700;
+}
+.texnikalar .texnikalar-menu nav.menu {
+  display: grid;
+  align-content: center;
+}
+.texnikalar .texnikalar-menu nav.menu ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid #353535;
+}
+.texnikalar .texnikalar-menu nav.menu ul li a {
+  color: #353535;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 700;
+}/*# sourceMappingURL=texnikalar.css.map */
