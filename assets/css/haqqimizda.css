@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
+.haqqimizda-wlc-content .links a {
+  color: #ADADAD;
+  font-family: Mulish;
+  padding-right: 5px;
+  font-weight: 400;
+}
+.haqqimizda-wlc-content .links a:first-child {
+  border-right: 1px solid #686868;
+}
+.haqqimizda-wlc-content .links a:last-child {
+  color: #596C72;
+  font-weight: 500;
+}
+.haqqimizda-wlc-content .haqqimizda-text h1 {
+  color: #596C72;
+  font-family: Montserrat-Bold;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 0;
+}
+.haqqimizda-wlc-content .haqqimizda-text h4 {
+  text-align: center;
+  color: #FFC01F;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 500;
+}
+.haqqimizda-wlc-content .haqqimizda-text p {
+  color: #353535;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.haqqimizda-wlc-content .haqqimizda-text .img-container {
+  width: 100%;
+  margin-top: 50px;
+}
+.haqqimizda-wlc-content .haqqimizda-text .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=haqqimizda.css.map */
